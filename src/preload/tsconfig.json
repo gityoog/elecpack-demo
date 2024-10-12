@@ -1,0 +1,16 @@
+{
+  "extends": "../tsconfig.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "$/*": [
+        "../../module/*"
+      ]
+    }
+  },
+  "include": [
+    "./**/*",
+    "../common/**/*",
+    "../../module/**/*"
+  ]
+}

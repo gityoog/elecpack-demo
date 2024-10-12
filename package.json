@@ -1,0 +1,19 @@
+{
+  "name": "elecpack-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node -r ts-swc-register ./script/index.ts dev",
+    "build": "node -r ts-swc-register ./script/index.ts build"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "elecpack": "^1.1.0",
+    "electron": "^32.1.2"
+  },
+  "dependencies": {
+    "decimal.js": "^10.4.3"
+  }
+}
